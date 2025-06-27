@@ -1,5 +1,5 @@
-const notionApiKey = 'YOUR_NOTION_TOKEN'; // Sostituisci con il tuo token
-const databaseId = 'YOUR_NOTION_DATABASE_ID'; // Sostituisci con l'ID del calendario
+const notionApiKey = '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'; // Sostituisci con il tuo token
+const databaseId = '5fe69fd43f1740b0b2e94b9b61a863a4'; // Sostituisci con l'ID del calendario
 
 async function fetchEvents() {
   const url = `https://api.notion.com/v1/databases/${databaseId}/query`;
