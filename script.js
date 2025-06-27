@@ -1,43 +1,66 @@
-const notionApiKey = 'YOUR_NOTION_TOKEN'; // Sostituisci con il tuo token
-const databaseId = 'YOUR_NOTION_DATABASE_ID'; // Sostituisci con l'ID del calendario
+const notionApiKey = '5fe69fd43f1740b0b2e94b9b61a863a4'; // Sostituisci con il tuo token
+const databaseId = '3c372175215e43ec95ce3c35feee1b31'; // Sostituisci con l'ID del calendario
 
 async function fetchEvents() {
   const url = `https://api.notion.com/v1/databases/${databaseId}/query`;
-  const options = {
-    method: 'POST',
-    headers: {
-      'Authorization': `Bearer ${notionApiKey}`,
-      'Notion-Version': '2022-06-28',
-      'Content-Type': 'application/json'
-    },
-    body: JSON.stringify({page_size: 100})
+  const headers = {
+    'Authorization': `Bearer ${notionApiKey}`,
+    'Notion-Version': '2022-06-28',
+    'Content-Type': 'application/json'
   };
 
-  const response = await fetch(url, options);
-  const data = await response.json();
+  const today = new Date().toISOString().split('T')[0];
+
+  const upcomingQuery = {
+    page_size: 100,
+    filter: {
+      property: 'Data',
+      date: { after: today }
+    },
+    sorts: [{ property: 'Data', direction: 'ascending' }]
+  };
+
+  const pastQuery = {
+    page_size: 100,
+    filter: {
+      property: 'Data',
+      date: { before: today }
+    },
+    sorts: [{ property: 'Data', direction: 'descending' }]
+  };
+
+  const [upcomingRes, pastRes] = await Promise.all([
+    fetch(url, { method: 'POST', headers, body: JSON.stringify(upcomingQuery) }),
+    fetch(url, { method: 'POST', headers, body: JSON.stringify(pastQuery) })
+  ]);
+  const upcomingData = await upcomingRes.json();
+  const pastData = await pastRes.json();
 
   const upcomingList = document.getElementById('upcoming-list');
   const pastList = document.getElementById('past-list');
 
-  const now = new Date();
-
-  data.results.forEach(page => {
+  upcomingData.results.forEach(page => {
     const name = page.properties.Name.title[0].plain_text;
-    const dateProp = page.properties.Date;
-    const locationProp = page.properties.Location;
-
+    const dateProp = page.properties.Data;
     if (dateProp && dateProp.date) {
       const date = new Date(dateProp.date.start);
       const item = document.createElement('li');
       item.textContent = `${name} - ${date.toLocaleDateString()}`;
+      upcomingList.appendChild(item);
+    }
+  });
 
-      if (date >= now) {
-        upcomingList.appendChild(item);
-      } else {
-        pastList.appendChild(item);
-        if (locationProp && locationProp.rich_text.length > 0) {
-          addMarker(locationProp.rich_text[0].plain_text);
-        }
+  pastData.results.forEach(page => {
+    const name = page.properties.Name.title[0].plain_text;
+    const dateProp = page.properties.Data;
+    const locationProp = page.properties.Location;
+    if (dateProp && dateProp.date) {
+      const date = new Date(dateProp.date.start);
+      const item = document.createElement('li');
+      item.textContent = `${name} - ${date.toLocaleDateString()}`;
+      pastList.appendChild(item);
+      if (locationProp && locationProp.rich_text.length > 0) {
+        addMarker(locationProp.rich_text[0].plain_text);
       }
     }
   });

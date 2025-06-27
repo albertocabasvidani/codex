@@ -11,9 +11,9 @@ Questo repository contiene un esempio di sito web per una tribute band.
 
 ## Configurazione
 
-1. Crea un database in Notion con i campi `Name`, `Date` (di tipo *date*) e `Location` (testo). Utilizza la vista *Calendar* per gestire gli eventi.
+1. Crea un database in Notion con i campi `Name`, `Data` (di tipo *date*) e `Location` (testo). Utilizza la vista *Calendar* per gestire gli eventi.
 2. Ottieni un token di integrazione da Notion e condividi il database con l'integrazione.
-3. Nel file `script.js` sostituisci `YOUR_NOTION_TOKEN` e `YOUR_NOTION_DATABASE_ID` con i valori corretti.
+3. Nel file `script.js` sono già impostati un esempio di token e di ID del database: sostituiscili se necessario con i tuoi valori.
 4. Apri `index.html` in un browser per visualizzare il sito.
 
 La mappa utilizza il servizio di geocodifica di [Nominatim](https://nominatim.openstreetmap.org/); assicurati di avere una connessione Internet quando il sito effettua la ricerca delle località.
