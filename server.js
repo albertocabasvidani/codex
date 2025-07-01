@@ -9,8 +9,13 @@ try {
   // dotenv is optional; ignore if not installed
 }
 
-const notionApiKey = process.env.NOTION_API_KEY;
-const databaseId = process.env.NOTION_DATABASE_ID;
+// Notion credentials. Can be overridden by environment variables
+const notionApiKey =
+  process.env.NOTION_API_KEY ||
+  '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';
+const databaseId =
+  process.env.NOTION_DATABASE_ID ||
+  '5fe69fd43f1740b0b2e94b9b61a863a4';
 
 const port = 3000;
 
@@ -29,30 +34,28 @@ async function handleEvents(res) {
     'Content-Type': 'application/json'
   };
   const today = new Date().toISOString().split('T')[0];
-  const upcomingQuery = {
-    page_size: 100,
-    filter: { property: 'Data', date: { after: today } },
+  const query = {
+    filter: { property: 'Data', date: { on_or_after: today } },
     sorts: [{ property: 'Data', direction: 'ascending' }]
   };
-  const pastQuery = {
-    page_size: 100,
-    filter: { property: 'Data', date: { before: today } },
-    sorts: [{ property: 'Data', direction: 'descending' }]
-  };
   try {
-    const [upRes, pastRes] = await Promise.all([
-      fetch(url, { method: 'POST', headers, body: JSON.stringify(upcomingQuery) }),
-      fetch(url, { method: 'POST', headers, body: JSON.stringify(pastQuery) })
-    ]);
-    const upData = await upRes.json();
-    const pastData = await pastRes.json();
-    const body = JSON.stringify({ upcoming: upData.results, past: pastData.results });
+    const notionRes = await fetch(url, {
+      method: 'POST',
+      headers,
+      body: JSON.stringify(query)
+    });
+    const output = await notionRes.json();
+    if (!notionRes.ok) {
+      res.writeHead(notionRes.status, { 'Content-Type': 'application/json' });
+      res.end(JSON.stringify(output));
+      return;
+    }
     res.writeHead(200, { 'Content-Type': 'application/json' });
-    res.end(body);
+    res.end(JSON.stringify({ upcoming: output.results }));
   } catch (err) {
     console.error(err);
-    res.writeHead(500);
-    res.end('Errore nel caricamento eventi');
+    res.writeHead(500, { 'Content-Type': 'application/json' });
+    res.end(JSON.stringify({ error: err.message }));
   }
 }
 

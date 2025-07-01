@@ -2,15 +2,23 @@
 async function fetchEvents() {
   try {
     const res = await fetch('/events');
-    if (!res.ok) throw new Error('server');
-    const data = await res.json();
+
+    const text = await res.text();
+    if (!res.ok) {
+      displayApiOutput(text);
+      return;
+    }
+    const data = JSON.parse(text);
     populateLists(data.upcoming, data.past);
   } catch (err) {
+    displayApiOutput(String(err));
+
     console.error('Failed to load events', err);
   }
 }
 
-function populateLists(upcoming, past) {
+function populateLists(upcoming = [], past = []) {
+
   const upcomingList = document.getElementById('upcoming-list');
   const pastList = document.getElementById('past-list');
   upcomingList.innerHTML = '';
@@ -25,7 +33,6 @@ function populateLists(upcoming, past) {
       item.textContent = `${name} - ${date.toLocaleDateString()}`;
       upcomingList.appendChild(item);
 
-    }
 
 
   past.forEach(page => {
@@ -61,6 +68,13 @@ function populateLists(upcoming, past) {
   } catch (err) {
     console.error('Impossibile recuperare gli eventi', err);
   }
+}
+
+function displayApiOutput(raw) {
+  const upcomingList = document.getElementById('upcoming-list');
+  const pastList = document.getElementById('past-list');
+  upcomingList.innerHTML = `<pre>${raw}</pre>`;
+  pastList.innerHTML = '';
 }
 
 // Mappa con Leaflet
