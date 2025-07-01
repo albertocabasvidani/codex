@@ -16,6 +16,8 @@ Questo repository contiene un esempio di sito web per una tribute band.
 3. Imposta le variabili d'ambiente `NOTION_API_KEY` e `NOTION_DATABASE_ID` con i valori del tuo account Notion. Puoi creare un file `.env` (vedi `.env.example`) per caricarle automaticamente in locale tramite [dotenv](https://github.com/motdotla/dotenv).
 4. Avvia il server con `node server.js` e visita `http://localhost:3000` in un browser per visualizzare il sito.
 
+Assicurati di usare **Node.js 18 o superiore**, necessario per l'API `fetch` integrata. Se riscontri errori di `fetch`, installa il pacchetto `node-fetch` oppure aggiorna la tua versione di Node.
+
 
 
 La mappa utilizza il servizio di geocodifica di [Nominatim](https://nominatim.openstreetmap.org/); assicurati di avere una connessione Internet quando il sito effettua la ricerca delle località.
