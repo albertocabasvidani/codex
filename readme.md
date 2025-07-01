@@ -16,6 +16,8 @@ Questo repository contiene un esempio di sito web per una tribute band.
 3. Nel file `server.js` sono già impostati un esempio di token e di ID del database: sostituiscili se necessario con i tuoi valori.
 4. Avvia il server con `node server.js` e visita `http://localhost:3000` in un browser per visualizzare il sito.
 
+Assicurati di usare **Node.js 18 o superiore**, necessario per l'API `fetch` integrata. Se riscontri errori di `fetch`, installa il pacchetto `node-fetch` oppure aggiorna la tua versione di Node.
+
 
 
 La mappa utilizza il servizio di geocodifica di [Nominatim](https://nominatim.openstreetmap.org/); assicurati di avere una connessione Internet quando il sito effettua la ricerca delle località.
