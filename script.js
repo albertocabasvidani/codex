@@ -1,47 +1,16 @@
 
-const notionApiKey = '5fe69fd43f1740b0b2e94b9b61a863a4'; // Sostituisci con il tuo token
-const databaseId = '3c372175215e43ec95ce3c35feee1b31'; // Sostituisci con l'ID del calendario
-
-
 async function fetchEvents() {
-  const url = `https://api.notion.com/v1/databases/${databaseId}/query`;
-  const headers = {
-    'Authorization': `Bearer ${notionApiKey}`,
-    'Notion-Version': '2022-06-28',
-    'Content-Type': 'application/json'
-  };
+  const res = await fetch('/events');
+  const data = await res.json();
 
-  const today = new Date().toISOString().split('T')[0];
-
-  const upcomingQuery = {
-    page_size: 100,
-    filter: {
-      property: 'Data',
-      date: { after: today }
-    },
-    sorts: [{ property: 'Data', direction: 'ascending' }]
-  };
-
-  const pastQuery = {
-    page_size: 100,
-    filter: {
-      property: 'Data',
-      date: { before: today }
-    },
-    sorts: [{ property: 'Data', direction: 'descending' }]
-  };
-
-  const [upcomingRes, pastRes] = await Promise.all([
-    fetch(url, { method: 'POST', headers, body: JSON.stringify(upcomingQuery) }),
-    fetch(url, { method: 'POST', headers, body: JSON.stringify(pastQuery) })
-  ]);
-  const upcomingData = await upcomingRes.json();
-  const pastData = await pastRes.json();
 
   const upcomingList = document.getElementById('upcoming-list');
   const pastList = document.getElementById('past-list');
 
-  upcomingData.results.forEach(page => {
+
+  data.upcoming.forEach(page => {
+
+
     const name = page.properties.Name.title[0].plain_text;
     const dateProp = page.properties.Data;
     if (dateProp && dateProp.date) {
@@ -52,7 +21,9 @@ async function fetchEvents() {
     }
   });
 
-  pastData.results.forEach(page => {
+
+  data.past.forEach(page => {
+
     const name = page.properties.Name.title[0].plain_text;
     const dateProp = page.properties.Data;
     const locationProp = page.properties.Location;
