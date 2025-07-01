@@ -1,6 +1,14 @@
 
 async function fetchEvents() {
-  const res = await fetch('/events');
+  let res;
+  try {
+    res = await fetch('/events');
+    if (!res.ok) throw new Error('server unavailable');
+  } catch (err) {
+    // On static hosting (e.g. GitHub Pages) the /events endpoint is not
+    // available, so fall back to a bundled JSON file with sample data.
+    res = await fetch('events.json');
+  }
   const data = await res.json();
 
 
