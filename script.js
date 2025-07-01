@@ -1,4 +1,5 @@
 
+
 async function fetchEvents() {
   try {
     const res = await fetch('/events');
@@ -30,6 +31,7 @@ async function fetchEvents() {
         if (locationProp && locationProp.rich_text.length > 0) {
           addMarker(locationProp.rich_text[0].plain_text);
         }
+
       }
     });
   } catch (err) {
