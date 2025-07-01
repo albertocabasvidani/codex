@@ -1,11 +1,16 @@
+
 async function fetchEvents() {
   const res = await fetch('/events');
   const data = await res.json();
 
+
   const upcomingList = document.getElementById('upcoming-list');
   const pastList = document.getElementById('past-list');
 
+
   data.upcoming.forEach(page => {
+
+
     const name = page.properties.Name.title[0].plain_text;
     const dateProp = page.properties.Data;
     if (dateProp && dateProp.date) {
@@ -16,7 +21,9 @@ async function fetchEvents() {
     }
   });
 
+
   data.past.forEach(page => {
+
     const name = page.properties.Name.title[0].plain_text;
     const dateProp = page.properties.Data;
     const locationProp = page.properties.Location;

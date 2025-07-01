@@ -1,0 +1,25 @@
+name: Auto‑merge main into PR (theirs)
+
+on:
+  pull_request:
+    types: [opened, reopened, synchronize]
+
+jobs:
+  merge_with_main:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0  # per recuperare tutta la storia :contentReference[oaicite:7]{index=7}
+
+      - name: Fetch main
+        run: git fetch origin main
+
+      - name: Merge main using "theirs"
+        run: |
+          git merge origin/main -m "Auto-merge from main (theirs)" -X theirs
+      - name: Push changes back
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git push origin HEAD:${{ github.head_ref }}
