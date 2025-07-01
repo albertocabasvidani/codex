@@ -1,4 +1,5 @@
 
+
 const NOTION_API_KEY = '5fe69fd43f1740b0b2e94b9b61a863a4';
 const DATABASE_ID = '3c372175215e43ec95ce3c35feee1b31';
 
@@ -68,6 +69,7 @@ async function fetchEvents() {
         }
       }
     });
+
   } catch (err) {
     console.error('Impossibile recuperare gli eventi', err);
   }
