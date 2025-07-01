@@ -14,56 +14,41 @@ async function fetchEvents() {
   const today = new Date().toISOString().split('T')[0];
   const body = {
     page_size: 100,
-    filter: { property: 'Data', date: { after: today } },
+
+    filter: { property: 'Data', date: { on_or_after: today } },
     sorts: [{ property: 'Data', direction: 'ascending' }]
   };
 
-  let data;
-  try {
-    const res = await fetch(url, {
-      method: 'POST',
-      headers,
-      body: JSON.stringify(body)
-    });
-    if (!res.ok) throw new Error('Notion API error');
-    const notionData = await res.json();
-    data = { upcoming: notionData.results, past: [] };
-  } catch (err) {
-    // On static hosting or if the Notion request fails,
-    // fall back to a bundled JSON file with sample data.
-    const res = await fetch('events.json');
-    data = await res.json();
+
+
+  const res = await fetch(url, {
+    method: 'POST',
+    headers,
+    body: JSON.stringify(body)
+  });
+  if (!res.ok) {
+    console.error('Notion API error', await res.text());
+    return;
   }
-
-
+  const notionData = await res.json();
+  const events = notionData.results;
 
   const upcomingList = document.getElementById('upcoming-list');
+  upcomingList.innerHTML = '';
   const pastList = document.getElementById('past-list');
+  pastList.innerHTML = '';
 
-
-  data.upcoming.forEach(page => {
-
-
-    const name = page.properties.Name.title[0].plain_text;
-    const dateProp = page.properties.Data;
-    if (dateProp && dateProp.date) {
-      const date = new Date(dateProp.date.start);
-      const item = document.createElement('li');
-      item.textContent = `${name} - ${date.toLocaleDateString()}`;
-      upcomingList.appendChild(item);
-    }
-  });
-
-
-  data.past.forEach(page => {
-
+  events.forEach(page => {
     const name = page.properties.Name.title[0].plain_text;
     const dateProp = page.properties.Data;
     const locationProp = page.properties.Location;
-    if (dateProp && dateProp.date) {
-      const date = new Date(dateProp.date.start);
-      const item = document.createElement('li');
-      item.textContent = `${name} - ${date.toLocaleDateString()}`;
+    if (!dateProp || !dateProp.date) return;
+    const date = new Date(dateProp.date.start);
+    const item = document.createElement('li');
+    item.textContent = `${name} - ${date.toLocaleDateString()}`;
+    if (date >= new Date(today)) {
+      upcomingList.appendChild(item);
+    } else {
       pastList.appendChild(item);
       if (locationProp && locationProp.rich_text.length > 0) {
         addMarker(locationProp.rich_text[0].plain_text);
