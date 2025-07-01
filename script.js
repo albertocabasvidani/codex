@@ -4,6 +4,7 @@ const NOTION_DATABASE_ID = '3c372175215e43ec95ce3c35feee1b31';
 const NOTION_VERSION = '2022-06-28';
 
 async function fetchEvents() {
+
   const url = `https://api.notion.com/v1/databases/${NOTION_DATABASE_ID}/query`;
   const headers = {
     'Authorization': `Bearer ${NOTION_API_KEY}`,
@@ -33,6 +34,7 @@ async function fetchEvents() {
     const res = await fetch('events.json');
     data = await res.json();
   }
+
 
 
   const upcomingList = document.getElementById('upcoming-list');
