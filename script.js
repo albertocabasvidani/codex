@@ -1,7 +1,38 @@
 
+const NOTION_API_KEY = '5fe69fd43f1740b0b2e94b9b61a863a4';
+const NOTION_DATABASE_ID = '3c372175215e43ec95ce3c35feee1b31';
+const NOTION_VERSION = '2022-06-28';
+
 async function fetchEvents() {
-  const res = await fetch('/events');
-  const data = await res.json();
+  const url = `https://api.notion.com/v1/databases/${NOTION_DATABASE_ID}/query`;
+  const headers = {
+    'Authorization': `Bearer ${NOTION_API_KEY}`,
+    'Notion-Version': NOTION_VERSION,
+    'Content-Type': 'application/json'
+  };
+  const today = new Date().toISOString().split('T')[0];
+  const body = {
+    page_size: 100,
+    filter: { property: 'Data', date: { after: today } },
+    sorts: [{ property: 'Data', direction: 'ascending' }]
+  };
+
+  let data;
+  try {
+    const res = await fetch(url, {
+      method: 'POST',
+      headers,
+      body: JSON.stringify(body)
+    });
+    if (!res.ok) throw new Error('Notion API error');
+    const notionData = await res.json();
+    data = { upcoming: notionData.results, past: [] };
+  } catch (err) {
+    // On static hosting or if the Notion request fails,
+    // fall back to a bundled JSON file with sample data.
+    const res = await fetch('events.json');
+    data = await res.json();
+  }
 
 
   const upcomingList = document.getElementById('upcoming-list');
