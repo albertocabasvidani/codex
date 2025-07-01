@@ -2,8 +2,15 @@ const http = require('http');
 const fs = require('fs');
 const path = require('path');
 
-const notionApiKey = '5fe69fd43f1740b0b2e94b9b61a863a4';
-const databaseId = '3c372175215e43ec95ce3c35feee1b31';
+// Load environment variables from a .env file when available
+try {
+  require('dotenv').config();
+} catch (err) {
+  // dotenv is optional; ignore if not installed
+}
+
+const notionApiKey = process.env.NOTION_API_KEY;
+const databaseId = process.env.NOTION_DATABASE_ID;
 
 const port = 3000;
 
