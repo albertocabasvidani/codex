@@ -1,0 +1,19 @@
+{
+  "upcoming": [
+    {
+      "properties": {
+        "Name": { "title": [ { "plain_text": "Concerto di prova" } ] },
+        "Data": { "date": { "start": "2025-01-01" } }
+      }
+    }
+  ],
+  "past": [
+    {
+      "properties": {
+        "Name": { "title": [ { "plain_text": "Concerto passato" } ] },
+        "Data": { "date": { "start": "2024-01-01" } },
+        "Location": { "rich_text": [ { "plain_text": "Roma, Italia" } ] }
+      }
+    }
+  ]
+}
