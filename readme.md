@@ -13,7 +13,7 @@ Questo repository contiene un esempio di sito web per una tribute band.
 
 1. Crea un database in Notion con i campi `Name`, `Data` (di tipo *date*) e `Location` (testo). Utilizza la vista *Calendar* per gestire gli eventi.
 2. Ottieni un token di integrazione da Notion e condividi il database con l'integrazione.
-3. Nel file `server.js` sono già impostati un esempio di token e di ID del database: sostituiscili se necessario con i tuoi valori.
+3. Imposta le variabili d'ambiente `NOTION_API_KEY` e `NOTION_DATABASE_ID` con i valori del tuo account Notion. Puoi creare un file `.env` (vedi `.env.example`) per caricarle automaticamente in locale tramite [dotenv](https://github.com/motdotla/dotenv).
 4. Avvia il server con `node server.js` e visita `http://localhost:3000` in un browser per visualizzare il sito.
 
 
