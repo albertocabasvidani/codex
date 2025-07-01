@@ -24,8 +24,9 @@ function populateLists(upcoming, past) {
       const item = document.createElement('li');
       item.textContent = `${name} - ${date.toLocaleDateString()}`;
       upcomingList.appendChild(item);
+
     }
-  });
+
 
   past.forEach(page => {
     const name = page.properties.Name.title[0].plain_text;
@@ -38,9 +39,28 @@ function populateLists(upcoming, past) {
       pastList.appendChild(item);
       if (locationProp && locationProp.rich_text.length > 0) {
         addMarker(locationProp.rich_text[0].plain_text);
+
       }
-    }
-  });
+    });
+
+    pastData.results.forEach(page => {
+      const name = page.properties.Name.title[0].plain_text;
+      const dateProp = page.properties.Data;
+      const locationProp = page.properties.Location;
+      if (dateProp && dateProp.date) {
+        const date = new Date(dateProp.date.start);
+        const item = document.createElement('li');
+        item.textContent = `${name} - ${date.toLocaleDateString()}`;
+        pastList.appendChild(item);
+        if (locationProp && locationProp.rich_text.length > 0) {
+          addMarker(locationProp.rich_text[0].plain_text);
+        }
+      }
+    });
+
+  } catch (err) {
+    console.error('Impossibile recuperare gli eventi', err);
+  }
 }
 
 // Mappa con Leaflet
