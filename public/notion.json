@@ -1,0 +1,3442 @@
+[
+  {
+    "object": "page",
+    "id": "217cb515-bb6a-81d0-ae19-c05a5da7cc66",
+    "created_time": "2025-06-19T14:27:00.000Z",
+    "last_edited_time": "2025-06-19T14:45:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "b7341eb1-e21c-454e-aef5-7869a7418b30"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "136fcd68-7331-4cb3-8bf3-ac903d4e5d31"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "5fe69fd4-3f17-40b0-b2e9-4b9b61a863a4"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Data": {
+        "id": "%3BV%3BF",
+        "type": "date",
+        "date": {
+          "start": "2025-08-23T21:00:00.000+02:00",
+          "end": null,
+          "time_zone": null
+        }
+      },
+      "Aco": {
+        "id": "WU%3F%3A",
+        "type": "checkbox",
+        "checkbox": true
+      },
+      "Luogo": {
+        "id": "~%7Dax",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Saciletto di Ruda",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Saciletto di Ruda",
+            "href": null
+          }
+        ]
+      },
+      "Locale": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Mulin di Braida",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Mulin di Braida",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Mulin-di-Braida-217cb515bb6a81d0ae19c05a5da7cc66",
+    "public_url": "https://albertocabasvidani.notion.site/Mulin-di-Braida-217cb515bb6a81d0ae19c05a5da7cc66"
+  },
+  {
+    "object": "page",
+    "id": "207cb515-bb6a-8025-9674-cfdafaade349",
+    "created_time": "2025-06-03T13:58:00.000Z",
+    "last_edited_time": "2025-06-03T13:58:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "136fcd68-7331-4cb3-8bf3-ac903d4e5d31"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "136fcd68-7331-4cb3-8bf3-ac903d4e5d31"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "5fe69fd4-3f17-40b0-b2e9-4b9b61a863a4"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Data": {
+        "id": "%3BV%3BF",
+        "type": "date",
+        "date": {
+          "start": "2025-07-18",
+          "end": null,
+          "time_zone": null
+        }
+      },
+      "Aco": {
+        "id": "WU%3F%3A",
+        "type": "checkbox",
+        "checkbox": true
+      },
+      "Luogo": {
+        "id": "~%7Dax",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Caorle",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Caorle",
+            "href": null
+          }
+        ]
+      },
+      "Locale": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Verde Mare Club",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Verde Mare Club",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Verde-Mare-Club-207cb515bb6a80259674cfdafaade349",
+    "public_url": "https://albertocabasvidani.notion.site/Verde-Mare-Club-207cb515bb6a80259674cfdafaade349"
+  },
+  {
+    "object": "page",
+    "id": "207cb515-bb6a-80d4-89b4-e50dc5e14310",
+    "created_time": "2025-06-03T13:57:00.000Z",
+    "last_edited_time": "2025-06-03T13:58:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "136fcd68-7331-4cb3-8bf3-ac903d4e5d31"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "136fcd68-7331-4cb3-8bf3-ac903d4e5d31"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "5fe69fd4-3f17-40b0-b2e9-4b9b61a863a4"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Data": {
+        "id": "%3BV%3BF",
+        "type": "date",
+        "date": {
+          "start": "2025-06-20T19:00:00.000+02:00",
+          "end": null,
+          "time_zone": null
+        }
+      },
+      "Aco": {
+        "id": "WU%3F%3A",
+        "type": "checkbox",
+        "checkbox": true
+      },
+      "Luogo": {
+        "id": "~%7Dax",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Staranzano",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Staranzano",
+            "href": null
+          }
+        ]
+      },
+      "Locale": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Bistro Bosio",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Bistro Bosio",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Bistro-Bosio-207cb515bb6a80d489b4e50dc5e14310",
+    "public_url": "https://albertocabasvidani.notion.site/Bistro-Bosio-207cb515bb6a80d489b4e50dc5e14310"
+  },
+  {
+    "object": "page",
+    "id": "1f0cb515-bb6a-8086-9ff1-edafb0de04e7",
+    "created_time": "2025-05-11T19:05:00.000Z",
+    "last_edited_time": "2025-05-11T19:06:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "136fcd68-7331-4cb3-8bf3-ac903d4e5d31"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "136fcd68-7331-4cb3-8bf3-ac903d4e5d31"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "5fe69fd4-3f17-40b0-b2e9-4b9b61a863a4"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Data": {
+        "id": "%3BV%3BF",
+        "type": "date",
+        "date": {
+          "start": "2025-09-12T21:00:00.000+02:00",
+          "end": null,
+          "time_zone": null
+        }
+      },
+      "Aco": {
+        "id": "WU%3F%3A",
+        "type": "checkbox",
+        "checkbox": false
+      },
+      "Luogo": {
+        "id": "~%7Dax",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Gradisca",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Gradisca",
+            "href": null
+          }
+        ]
+      },
+      "Locale": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Novecento",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Novecento",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Novecento-1f0cb515bb6a80869ff1edafb0de04e7",
+    "public_url": "https://albertocabasvidani.notion.site/Novecento-1f0cb515bb6a80869ff1edafb0de04e7"
+  },
+  {
+    "object": "page",
+    "id": "1f0cb515-bb6a-806d-a4ef-c10f17db9def",
+    "created_time": "2025-05-11T19:05:00.000Z",
+    "last_edited_time": "2025-05-11T19:06:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "136fcd68-7331-4cb3-8bf3-ac903d4e5d31"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "136fcd68-7331-4cb3-8bf3-ac903d4e5d31"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "5fe69fd4-3f17-40b0-b2e9-4b9b61a863a4"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Data": {
+        "id": "%3BV%3BF",
+        "type": "date",
+        "date": {
+          "start": "2025-08-30T21:00:00.000+02:00",
+          "end": null,
+          "time_zone": null
+        }
+      },
+      "Aco": {
+        "id": "WU%3F%3A",
+        "type": "checkbox",
+        "checkbox": false
+      },
+      "Luogo": {
+        "id": "~%7Dax",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Pavia di Udine",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Pavia di Udine",
+            "href": null
+          }
+        ]
+      },
+      "Locale": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "All’Invidia",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "All’Invidia",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/All-Invidia-1f0cb515bb6a806da4efc10f17db9def",
+    "public_url": "https://albertocabasvidani.notion.site/All-Invidia-1f0cb515bb6a806da4efc10f17db9def"
+  },
+  {
+    "object": "page",
+    "id": "1f0cb515-bb6a-80e1-8bc0-e72f3f7f591b",
+    "created_time": "2025-05-11T19:04:00.000Z",
+    "last_edited_time": "2025-05-11T19:06:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "136fcd68-7331-4cb3-8bf3-ac903d4e5d31"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "136fcd68-7331-4cb3-8bf3-ac903d4e5d31"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "5fe69fd4-3f17-40b0-b2e9-4b9b61a863a4"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Data": {
+        "id": "%3BV%3BF",
+        "type": "date",
+        "date": {
+          "start": "2025-08-29T21:00:00.000+02:00",
+          "end": null,
+          "time_zone": null
+        }
+      },
+      "Aco": {
+        "id": "WU%3F%3A",
+        "type": "checkbox",
+        "checkbox": true
+      },
+      "Luogo": {
+        "id": "~%7Dax",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Turriaco",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Turriaco",
+            "href": null
+          }
+        ]
+      },
+      "Locale": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Eccolo ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Eccolo ",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Eccolo-1f0cb515bb6a80e18bc0e72f3f7f591b",
+    "public_url": "https://albertocabasvidani.notion.site/Eccolo-1f0cb515bb6a80e18bc0e72f3f7f591b"
+  },
+  {
+    "object": "page",
+    "id": "1f0cb515-bb6a-80b2-85a6-d2ecf127ed27",
+    "created_time": "2025-05-11T19:03:00.000Z",
+    "last_edited_time": "2025-05-11T19:04:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "136fcd68-7331-4cb3-8bf3-ac903d4e5d31"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "136fcd68-7331-4cb3-8bf3-ac903d4e5d31"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "5fe69fd4-3f17-40b0-b2e9-4b9b61a863a4"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Data": {
+        "id": "%3BV%3BF",
+        "type": "date",
+        "date": {
+          "start": "2025-07-25T21:00:00.000+02:00",
+          "end": null,
+          "time_zone": null
+        }
+      },
+      "Aco": {
+        "id": "WU%3F%3A",
+        "type": "checkbox",
+        "checkbox": false
+      },
+      "Luogo": {
+        "id": "~%7Dax",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Strassoldo",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Strassoldo",
+            "href": null
+          }
+        ]
+      },
+      "Locale": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Spaccanapoli",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Spaccanapoli",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Spaccanapoli-1f0cb515bb6a80b285a6d2ecf127ed27",
+    "public_url": "https://albertocabasvidani.notion.site/Spaccanapoli-1f0cb515bb6a80b285a6d2ecf127ed27"
+  },
+  {
+    "object": "page",
+    "id": "1f0cb515-bb6a-807d-bd0c-f22b927a7cfd",
+    "created_time": "2025-05-11T19:02:00.000Z",
+    "last_edited_time": "2025-05-11T19:02:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "136fcd68-7331-4cb3-8bf3-ac903d4e5d31"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "136fcd68-7331-4cb3-8bf3-ac903d4e5d31"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "5fe69fd4-3f17-40b0-b2e9-4b9b61a863a4"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Data": {
+        "id": "%3BV%3BF",
+        "type": "date",
+        "date": {
+          "start": "2025-07-11T21:00:00.000+02:00",
+          "end": null,
+          "time_zone": null
+        }
+      },
+      "Aco": {
+        "id": "WU%3F%3A",
+        "type": "checkbox",
+        "checkbox": false
+      },
+      "Luogo": {
+        "id": "~%7Dax",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Basaldella",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Basaldella",
+            "href": null
+          }
+        ]
+      },
+      "Locale": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "La Corte",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "La Corte",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/La-Corte-1f0cb515bb6a807dbd0cf22b927a7cfd",
+    "public_url": "https://albertocabasvidani.notion.site/La-Corte-1f0cb515bb6a807dbd0cf22b927a7cfd"
+  },
+  {
+    "object": "page",
+    "id": "1f0cb515-bb6a-80d9-8b29-fcaeeee0ec60",
+    "created_time": "2025-05-11T19:00:00.000Z",
+    "last_edited_time": "2025-05-11T19:03:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "136fcd68-7331-4cb3-8bf3-ac903d4e5d31"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "136fcd68-7331-4cb3-8bf3-ac903d4e5d31"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "5fe69fd4-3f17-40b0-b2e9-4b9b61a863a4"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Data": {
+        "id": "%3BV%3BF",
+        "type": "date",
+        "date": {
+          "start": "2025-07-04T18:00:00.000+02:00",
+          "end": null,
+          "time_zone": null
+        }
+      },
+      "Aco": {
+        "id": "WU%3F%3A",
+        "type": "checkbox",
+        "checkbox": false
+      },
+      "Luogo": {
+        "id": "~%7Dax",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Premariacco",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Premariacco",
+            "href": null
+          }
+        ]
+      },
+      "Locale": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "QT",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "QT",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/QT-1f0cb515bb6a80d98b29fcaeeee0ec60",
+    "public_url": "https://albertocabasvidani.notion.site/QT-1f0cb515bb6a80d98b29fcaeeee0ec60"
+  },
+  {
+    "object": "page",
+    "id": "1cdcb515-bb6a-8074-8151-c20ac09dc594",
+    "created_time": "2025-04-06T13:04:00.000Z",
+    "last_edited_time": "2025-04-06T13:04:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "136fcd68-7331-4cb3-8bf3-ac903d4e5d31"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "136fcd68-7331-4cb3-8bf3-ac903d4e5d31"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "5fe69fd4-3f17-40b0-b2e9-4b9b61a863a4"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Data": {
+        "id": "%3BV%3BF",
+        "type": "date",
+        "date": {
+          "start": "2025-10-10",
+          "end": null,
+          "time_zone": null
+        }
+      },
+      "Aco": {
+        "id": "WU%3F%3A",
+        "type": "checkbox",
+        "checkbox": false
+      },
+      "Luogo": {
+        "id": "~%7Dax",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Gradisca d’Isonzo",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Gradisca d’Isonzo",
+            "href": null
+          }
+        ]
+      },
+      "Locale": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Garage Music Club",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Garage Music Club",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Garage-Music-Club-1cdcb515bb6a80748151c20ac09dc594",
+    "public_url": "https://albertocabasvidani.notion.site/Garage-Music-Club-1cdcb515bb6a80748151c20ac09dc594"
+  },
+  {
+    "object": "page",
+    "id": "1cdcb515-bb6a-804b-bbff-cd94d782e9ed",
+    "created_time": "2025-04-06T13:03:00.000Z",
+    "last_edited_time": "2025-05-11T19:01:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "136fcd68-7331-4cb3-8bf3-ac903d4e5d31"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "136fcd68-7331-4cb3-8bf3-ac903d4e5d31"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "5fe69fd4-3f17-40b0-b2e9-4b9b61a863a4"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Data": {
+        "id": "%3BV%3BF",
+        "type": "date",
+        "date": {
+          "start": "2025-06-14T21:00:00.000+02:00",
+          "end": null,
+          "time_zone": null
+        }
+      },
+      "Aco": {
+        "id": "WU%3F%3A",
+        "type": "checkbox",
+        "checkbox": false
+      },
+      "Luogo": {
+        "id": "~%7Dax",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "San Dorligo della Valle",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "San Dorligo della Valle",
+            "href": null
+          }
+        ]
+      },
+      "Locale": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Crese Cup",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Crese Cup",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Crese-Cup-1cdcb515bb6a804bbbffcd94d782e9ed",
+    "public_url": "https://albertocabasvidani.notion.site/Crese-Cup-1cdcb515bb6a804bbbffcd94d782e9ed"
+  },
+  {
+    "object": "page",
+    "id": "1accb515-bb6a-807e-9d0c-f4982d5711aa",
+    "created_time": "2025-03-04T15:35:00.000Z",
+    "last_edited_time": "2025-03-04T15:35:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "136fcd68-7331-4cb3-8bf3-ac903d4e5d31"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "136fcd68-7331-4cb3-8bf3-ac903d4e5d31"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "5fe69fd4-3f17-40b0-b2e9-4b9b61a863a4"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Data": {
+        "id": "%3BV%3BF",
+        "type": "date",
+        "date": {
+          "start": "2025-03-21",
+          "end": null,
+          "time_zone": null
+        }
+      },
+      "Aco": {
+        "id": "WU%3F%3A",
+        "type": "checkbox",
+        "checkbox": false
+      },
+      "Luogo": {
+        "id": "~%7Dax",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Trieste",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Trieste",
+            "href": null
+          }
+        ]
+      },
+      "Locale": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "White Cafè",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "White Cafè",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/White-Caf-1accb515bb6a807e9d0cf4982d5711aa",
+    "public_url": "https://albertocabasvidani.notion.site/White-Caf-1accb515bb6a807e9d0cf4982d5711aa"
+  },
+  {
+    "object": "page",
+    "id": "194cb515-bb6a-8097-9d34-d8c6cedbbd32",
+    "created_time": "2025-02-08T17:21:00.000Z",
+    "last_edited_time": "2025-05-11T19:01:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "136fcd68-7331-4cb3-8bf3-ac903d4e5d31"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "136fcd68-7331-4cb3-8bf3-ac903d4e5d31"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "5fe69fd4-3f17-40b0-b2e9-4b9b61a863a4"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Data": {
+        "id": "%3BV%3BF",
+        "type": "date",
+        "date": {
+          "start": "2025-05-22T18:30:00.000+02:00",
+          "end": null,
+          "time_zone": null
+        }
+      },
+      "Aco": {
+        "id": "WU%3F%3A",
+        "type": "checkbox",
+        "checkbox": true
+      },
+      "Luogo": {
+        "id": "~%7Dax",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Staranzano",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Staranzano",
+            "href": null
+          }
+        ]
+      },
+      "Locale": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Bistrot Bosio",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Bistrot Bosio",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Bistrot-Bosio-194cb515bb6a80979d34d8c6cedbbd32",
+    "public_url": "https://albertocabasvidani.notion.site/Bistrot-Bosio-194cb515bb6a80979d34d8c6cedbbd32"
+  },
+  {
+    "object": "page",
+    "id": "194cb515-bb6a-8068-81ba-ed54e2b98e60",
+    "created_time": "2025-02-08T17:20:00.000Z",
+    "last_edited_time": "2025-04-06T13:03:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "136fcd68-7331-4cb3-8bf3-ac903d4e5d31"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "136fcd68-7331-4cb3-8bf3-ac903d4e5d31"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "5fe69fd4-3f17-40b0-b2e9-4b9b61a863a4"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Data": {
+        "id": "%3BV%3BF",
+        "type": "date",
+        "date": {
+          "start": "2025-05-01",
+          "end": null,
+          "time_zone": null
+        }
+      },
+      "Aco": {
+        "id": "WU%3F%3A",
+        "type": "checkbox",
+        "checkbox": false
+      },
+      "Luogo": {
+        "id": "~%7Dax",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "San Vito al Torre",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "San Vito al Torre",
+            "href": null
+          }
+        ]
+      },
+      "Locale": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Casa Bianca",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Casa Bianca",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Casa-Bianca-194cb515bb6a806881baed54e2b98e60",
+    "public_url": "https://albertocabasvidani.notion.site/Casa-Bianca-194cb515bb6a806881baed54e2b98e60"
+  },
+  {
+    "object": "page",
+    "id": "194cb515-bb6a-809e-a660-da3a95c61140",
+    "created_time": "2025-02-08T16:51:00.000Z",
+    "last_edited_time": "2025-05-11T19:02:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "136fcd68-7331-4cb3-8bf3-ac903d4e5d31"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "136fcd68-7331-4cb3-8bf3-ac903d4e5d31"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "5fe69fd4-3f17-40b0-b2e9-4b9b61a863a4"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Data": {
+        "id": "%3BV%3BF",
+        "type": "date",
+        "date": {
+          "start": "2025-06-29T21:00:00.000+02:00",
+          "end": null,
+          "time_zone": null
+        }
+      },
+      "Aco": {
+        "id": "WU%3F%3A",
+        "type": "checkbox",
+        "checkbox": false
+      },
+      "Luogo": {
+        "id": "~%7Dax",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Gemona",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Gemona",
+            "href": null
+          }
+        ]
+      },
+      "Locale": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Sagra di S.Pietro",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Sagra di S.Pietro",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Sagra-di-S-Pietro-194cb515bb6a809ea660da3a95c61140",
+    "public_url": "https://albertocabasvidani.notion.site/Sagra-di-S-Pietro-194cb515bb6a809ea660da3a95c61140"
+  },
+  {
+    "object": "page",
+    "id": "186cb515-bb6a-8015-a632-df17c0f3a6fc",
+    "created_time": "2025-01-25T13:55:00.000Z",
+    "last_edited_time": "2025-01-25T13:56:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "136fcd68-7331-4cb3-8bf3-ac903d4e5d31"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "136fcd68-7331-4cb3-8bf3-ac903d4e5d31"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "5fe69fd4-3f17-40b0-b2e9-4b9b61a863a4"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Data": {
+        "id": "%3BV%3BF",
+        "type": "date",
+        "date": {
+          "start": "2025-04-12",
+          "end": null,
+          "time_zone": null
+        }
+      },
+      "Aco": {
+        "id": "WU%3F%3A",
+        "type": "checkbox",
+        "checkbox": false
+      },
+      "Luogo": {
+        "id": "~%7Dax",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "San Fior",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "San Fior",
+            "href": null
+          }
+        ]
+      },
+      "Locale": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "The One Lounge",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "The One Lounge",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/The-One-Lounge-186cb515bb6a8015a632df17c0f3a6fc",
+    "public_url": "https://albertocabasvidani.notion.site/The-One-Lounge-186cb515bb6a8015a632df17c0f3a6fc"
+  },
+  {
+    "object": "page",
+    "id": "14dcb515-bb6a-80fb-930e-e550be8590a6",
+    "created_time": "2024-11-29T14:58:00.000Z",
+    "last_edited_time": "2024-11-29T14:58:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "136fcd68-7331-4cb3-8bf3-ac903d4e5d31"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "136fcd68-7331-4cb3-8bf3-ac903d4e5d31"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "5fe69fd4-3f17-40b0-b2e9-4b9b61a863a4"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Data": {
+        "id": "%3BV%3BF",
+        "type": "date",
+        "date": {
+          "start": "2025-06-28T21:00:00.000+02:00",
+          "end": null,
+          "time_zone": null
+        }
+      },
+      "Aco": {
+        "id": "WU%3F%3A",
+        "type": "checkbox",
+        "checkbox": false
+      },
+      "Luogo": {
+        "id": "~%7Dax",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Remanzacco",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Remanzacco",
+            "href": null
+          }
+        ]
+      },
+      "Locale": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Da Edy",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Da Edy",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Da-Edy-14dcb515bb6a80fb930ee550be8590a6",
+    "public_url": "https://albertocabasvidani.notion.site/Da-Edy-14dcb515bb6a80fb930ee550be8590a6"
+  },
+  {
+    "object": "page",
+    "id": "142cb515-bb6a-80f0-bbca-fc58803afd77",
+    "created_time": "2024-11-18T15:15:00.000Z",
+    "last_edited_time": "2024-11-18T15:15:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "136fcd68-7331-4cb3-8bf3-ac903d4e5d31"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "136fcd68-7331-4cb3-8bf3-ac903d4e5d31"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "5fe69fd4-3f17-40b0-b2e9-4b9b61a863a4"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Data": {
+        "id": "%3BV%3BF",
+        "type": "date",
+        "date": {
+          "start": "2025-01-31",
+          "end": null,
+          "time_zone": null
+        }
+      },
+      "Aco": {
+        "id": "WU%3F%3A",
+        "type": "checkbox",
+        "checkbox": true
+      },
+      "Luogo": {
+        "id": "~%7Dax",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Strassoldo",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Strassoldo",
+            "href": null
+          }
+        ]
+      },
+      "Locale": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Pizzeria Spaccanapoli",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Pizzeria Spaccanapoli",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Pizzeria-Spaccanapoli-142cb515bb6a80f0bbcafc58803afd77",
+    "public_url": "https://albertocabasvidani.notion.site/Pizzeria-Spaccanapoli-142cb515bb6a80f0bbcafc58803afd77"
+  },
+  {
+    "object": "page",
+    "id": "127cb515-bb6a-8077-a0e2-c407d99cd494",
+    "created_time": "2024-10-22T16:06:00.000Z",
+    "last_edited_time": "2024-10-22T16:06:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "136fcd68-7331-4cb3-8bf3-ac903d4e5d31"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "136fcd68-7331-4cb3-8bf3-ac903d4e5d31"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "5fe69fd4-3f17-40b0-b2e9-4b9b61a863a4"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Data": {
+        "id": "%3BV%3BF",
+        "type": "date",
+        "date": {
+          "start": "2024-12-14",
+          "end": null,
+          "time_zone": null
+        }
+      },
+      "Aco": {
+        "id": "WU%3F%3A",
+        "type": "checkbox",
+        "checkbox": false
+      },
+      "Luogo": {
+        "id": "~%7Dax",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Jesolo",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Jesolo",
+            "href": null
+          }
+        ]
+      },
+      "Locale": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Live Drink",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Live Drink",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Live-Drink-127cb515bb6a8077a0e2c407d99cd494",
+    "public_url": "https://albertocabasvidani.notion.site/Live-Drink-127cb515bb6a8077a0e2c407d99cd494"
+  },
+  {
+    "object": "page",
+    "id": "127cb515-bb6a-8090-8b61-d490b8fc91c9",
+    "created_time": "2024-10-22T16:05:00.000Z",
+    "last_edited_time": "2024-10-22T16:06:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "136fcd68-7331-4cb3-8bf3-ac903d4e5d31"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "136fcd68-7331-4cb3-8bf3-ac903d4e5d31"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "5fe69fd4-3f17-40b0-b2e9-4b9b61a863a4"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Data": {
+        "id": "%3BV%3BF",
+        "type": "date",
+        "date": {
+          "start": "2024-12-21",
+          "end": null,
+          "time_zone": null
+        }
+      },
+      "Aco": {
+        "id": "WU%3F%3A",
+        "type": "checkbox",
+        "checkbox": false
+      },
+      "Luogo": {
+        "id": "~%7Dax",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Cervignano",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Cervignano",
+            "href": null
+          }
+        ]
+      },
+      "Locale": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Rorù",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Rorù",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Ror-127cb515bb6a80908b61d490b8fc91c9",
+    "public_url": "https://albertocabasvidani.notion.site/Ror-127cb515bb6a80908b61d490b8fc91c9"
+  },
+  {
+    "object": "page",
+    "id": "127cb515-bb6a-80ac-bd9e-f6e2d8dd23f4",
+    "created_time": "2024-10-22T16:05:00.000Z",
+    "last_edited_time": "2024-10-22T16:05:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "136fcd68-7331-4cb3-8bf3-ac903d4e5d31"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "136fcd68-7331-4cb3-8bf3-ac903d4e5d31"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "5fe69fd4-3f17-40b0-b2e9-4b9b61a863a4"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Data": {
+        "id": "%3BV%3BF",
+        "type": "date",
+        "date": {
+          "start": "2025-04-17",
+          "end": null,
+          "time_zone": null
+        }
+      },
+      "Aco": {
+        "id": "WU%3F%3A",
+        "type": "checkbox",
+        "checkbox": false
+      },
+      "Luogo": {
+        "id": "~%7Dax",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Trieste",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Trieste",
+            "href": null
+          }
+        ]
+      },
+      "Locale": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Hamerica’s",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Hamerica’s",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Hamerica-s-127cb515bb6a80acbd9ef6e2d8dd23f4",
+    "public_url": "https://albertocabasvidani.notion.site/Hamerica-s-127cb515bb6a80acbd9ef6e2d8dd23f4"
+  },
+  {
+    "object": "page",
+    "id": "127cb515-bb6a-805f-8e87-e2293524bd2f",
+    "created_time": "2024-10-22T16:04:00.000Z",
+    "last_edited_time": "2024-10-22T16:05:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "136fcd68-7331-4cb3-8bf3-ac903d4e5d31"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "136fcd68-7331-4cb3-8bf3-ac903d4e5d31"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "5fe69fd4-3f17-40b0-b2e9-4b9b61a863a4"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Data": {
+        "id": "%3BV%3BF",
+        "type": "date",
+        "date": {
+          "start": "2025-02-13",
+          "end": null,
+          "time_zone": null
+        }
+      },
+      "Aco": {
+        "id": "WU%3F%3A",
+        "type": "checkbox",
+        "checkbox": false
+      },
+      "Luogo": {
+        "id": "~%7Dax",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Trieste",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Trieste",
+            "href": null
+          }
+        ]
+      },
+      "Locale": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Hamerica’s",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Hamerica’s",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Hamerica-s-127cb515bb6a805f8e87e2293524bd2f",
+    "public_url": "https://albertocabasvidani.notion.site/Hamerica-s-127cb515bb6a805f8e87e2293524bd2f"
+  },
+  {
+    "object": "page",
+    "id": "11acb515-bb6a-8047-b5e7-c61202b6dc77",
+    "created_time": "2024-10-09T09:54:00.000Z",
+    "last_edited_time": "2024-11-18T15:15:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "136fcd68-7331-4cb3-8bf3-ac903d4e5d31"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "136fcd68-7331-4cb3-8bf3-ac903d4e5d31"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "5fe69fd4-3f17-40b0-b2e9-4b9b61a863a4"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Data": {
+        "id": "%3BV%3BF",
+        "type": "date",
+        "date": {
+          "start": "2025-02-07",
+          "end": null,
+          "time_zone": null
+        }
+      },
+      "Aco": {
+        "id": "WU%3F%3A",
+        "type": "checkbox",
+        "checkbox": true
+      },
+      "Luogo": {
+        "id": "~%7Dax",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Tarcento",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Tarcento",
+            "href": null
+          }
+        ]
+      },
+      "Locale": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Plan di Paluz",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Plan di Paluz",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Plan-di-Paluz-11acb515bb6a8047b5e7c61202b6dc77",
+    "public_url": "https://albertocabasvidani.notion.site/Plan-di-Paluz-11acb515bb6a8047b5e7c61202b6dc77"
+  },
+  {
+    "object": "page",
+    "id": "11acb515-bb6a-8028-8a71-cd95d4b3694f",
+    "created_time": "2024-10-09T09:52:00.000Z",
+    "last_edited_time": "2024-12-02T19:42:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "136fcd68-7331-4cb3-8bf3-ac903d4e5d31"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "136fcd68-7331-4cb3-8bf3-ac903d4e5d31"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "5fe69fd4-3f17-40b0-b2e9-4b9b61a863a4"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Data": {
+        "id": "%3BV%3BF",
+        "type": "date",
+        "date": {
+          "start": "2025-02-08T20:30:00.000+01:00",
+          "end": null,
+          "time_zone": null
+        }
+      },
+      "Aco": {
+        "id": "WU%3F%3A",
+        "type": "checkbox",
+        "checkbox": false
+      },
+      "Luogo": {
+        "id": "~%7Dax",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Poggio Terza Armata",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Poggio Terza Armata",
+            "href": null
+          }
+        ]
+      },
+      "Locale": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Club Twenty One",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Club Twenty One",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Club-Twenty-One-11acb515bb6a80288a71cd95d4b3694f",
+    "public_url": "https://albertocabasvidani.notion.site/Club-Twenty-One-11acb515bb6a80288a71cd95d4b3694f"
+  },
+  {
+    "object": "page",
+    "id": "107cb515-bb6a-80f4-9fd0-d8b78c60bb6a",
+    "created_time": "2024-09-20T08:27:00.000Z",
+    "last_edited_time": "2024-09-20T08:28:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "136fcd68-7331-4cb3-8bf3-ac903d4e5d31"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "136fcd68-7331-4cb3-8bf3-ac903d4e5d31"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "5fe69fd4-3f17-40b0-b2e9-4b9b61a863a4"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Data": {
+        "id": "%3BV%3BF",
+        "type": "date",
+        "date": {
+          "start": "2024-11-09T20:30:00.000+01:00",
+          "end": null,
+          "time_zone": null
+        }
+      },
+      "Aco": {
+        "id": "WU%3F%3A",
+        "type": "checkbox",
+        "checkbox": false
+      },
+      "Luogo": {
+        "id": "~%7Dax",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Turriaco",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Turriaco",
+            "href": null
+          }
+        ]
+      },
+      "Locale": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Bisboccia 2.0",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Bisboccia 2.0",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Bisboccia-2-0-107cb515bb6a80f49fd0d8b78c60bb6a",
+    "public_url": "https://albertocabasvidani.notion.site/Bisboccia-2-0-107cb515bb6a80f49fd0d8b78c60bb6a"
+  },
+  {
+    "object": "page",
+    "id": "107cb515-bb6a-80bd-b5ba-fa61d633a227",
+    "created_time": "2024-09-20T08:27:00.000Z",
+    "last_edited_time": "2024-09-20T08:27:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "136fcd68-7331-4cb3-8bf3-ac903d4e5d31"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "136fcd68-7331-4cb3-8bf3-ac903d4e5d31"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "5fe69fd4-3f17-40b0-b2e9-4b9b61a863a4"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Data": {
+        "id": "%3BV%3BF",
+        "type": "date",
+        "date": {
+          "start": "2024-10-13T16:00:00.000+02:00",
+          "end": null,
+          "time_zone": null
+        }
+      },
+      "Aco": {
+        "id": "WU%3F%3A",
+        "type": "checkbox",
+        "checkbox": false
+      },
+      "Luogo": {
+        "id": "~%7Dax",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Reana del Rojale",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Reana del Rojale",
+            "href": null
+          }
+        ]
+      },
+      "Locale": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Festa privata",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Festa privata",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Festa-privata-107cb515bb6a80bdb5bafa61d633a227",
+    "public_url": "https://albertocabasvidani.notion.site/Festa-privata-107cb515bb6a80bdb5bafa61d633a227"
+  },
+  {
+    "object": "page",
+    "id": "9679e777-3866-4914-837c-1dc1c595195c",
+    "created_time": "2024-08-06T15:20:00.000Z",
+    "last_edited_time": "2024-08-06T15:20:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "136fcd68-7331-4cb3-8bf3-ac903d4e5d31"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "136fcd68-7331-4cb3-8bf3-ac903d4e5d31"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "5fe69fd4-3f17-40b0-b2e9-4b9b61a863a4"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Data": {
+        "id": "%3BV%3BF",
+        "type": "date",
+        "date": {
+          "start": "2024-08-30T19:30:00.000+02:00",
+          "end": null,
+          "time_zone": null
+        }
+      },
+      "Aco": {
+        "id": "WU%3F%3A",
+        "type": "checkbox",
+        "checkbox": true
+      },
+      "Luogo": {
+        "id": "~%7Dax",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Tarcento",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Tarcento",
+            "href": null
+          }
+        ]
+      },
+      "Locale": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Sapori Divini",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Sapori Divini",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Sapori-Divini-9679e77738664914837c1dc1c595195c",
+    "public_url": "https://albertocabasvidani.notion.site/Sapori-Divini-9679e77738664914837c1dc1c595195c"
+  },
+  {
+    "object": "page",
+    "id": "d9f15d5c-38af-4007-b329-23fd36e0c425",
+    "created_time": "2024-07-06T09:16:00.000Z",
+    "last_edited_time": "2024-07-06T09:17:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "136fcd68-7331-4cb3-8bf3-ac903d4e5d31"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "136fcd68-7331-4cb3-8bf3-ac903d4e5d31"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "5fe69fd4-3f17-40b0-b2e9-4b9b61a863a4"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Data": {
+        "id": "%3BV%3BF",
+        "type": "date",
+        "date": {
+          "start": "2024-09-06T21:00:00.000+02:00",
+          "end": null,
+          "time_zone": null
+        }
+      },
+      "Aco": {
+        "id": "WU%3F%3A",
+        "type": "checkbox",
+        "checkbox": false
+      },
+      "Luogo": {
+        "id": "~%7Dax",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "San Daniele",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "San Daniele",
+            "href": null
+          }
+        ]
+      },
+      "Locale": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Lanbeer",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Lanbeer",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Lanbeer-d9f15d5c38af4007b32923fd36e0c425",
+    "public_url": "https://albertocabasvidani.notion.site/Lanbeer-d9f15d5c38af4007b32923fd36e0c425"
+  },
+  {
+    "object": "page",
+    "id": "439c9fb9-0761-4d6f-bb72-a354acaf9deb",
+    "created_time": "2024-06-24T13:57:00.000Z",
+    "last_edited_time": "2024-06-24T13:58:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "136fcd68-7331-4cb3-8bf3-ac903d4e5d31"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "136fcd68-7331-4cb3-8bf3-ac903d4e5d31"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "5fe69fd4-3f17-40b0-b2e9-4b9b61a863a4"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Data": {
+        "id": "%3BV%3BF",
+        "type": "date",
+        "date": {
+          "start": "2024-07-27T21:00:00.000+02:00",
+          "end": null,
+          "time_zone": null
+        }
+      },
+      "Aco": {
+        "id": "WU%3F%3A",
+        "type": "checkbox",
+        "checkbox": false
+      },
+      "Luogo": {
+        "id": "~%7Dax",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Sevegliano",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Sevegliano",
+            "href": null
+          }
+        ]
+      },
+      "Locale": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Orion’s Pub",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Orion’s Pub",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Orion-s-Pub-439c9fb907614d6fbb72a354acaf9deb",
+    "public_url": "https://albertocabasvidani.notion.site/Orion-s-Pub-439c9fb907614d6fbb72a354acaf9deb"
+  },
+  {
+    "object": "page",
+    "id": "74afed0b-7ac4-4668-8dc6-9795f6f5e696",
+    "created_time": "2024-06-20T08:24:00.000Z",
+    "last_edited_time": "2024-06-20T09:56:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "136fcd68-7331-4cb3-8bf3-ac903d4e5d31"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "136fcd68-7331-4cb3-8bf3-ac903d4e5d31"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "5fe69fd4-3f17-40b0-b2e9-4b9b61a863a4"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Data": {
+        "id": "%3BV%3BF",
+        "type": "date",
+        "date": {
+          "start": "2024-08-10T21:00:00.000+02:00",
+          "end": null,
+          "time_zone": null
+        }
+      },
+      "Aco": {
+        "id": "WU%3F%3A",
+        "type": "checkbox",
+        "checkbox": true
+      },
+      "Luogo": {
+        "id": "~%7Dax",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Turriaco",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Turriaco",
+            "href": null
+          }
+        ]
+      },
+      "Locale": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Bisboccia",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Bisboccia",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Bisboccia-74afed0b7ac446688dc69795f6f5e696",
+    "public_url": "https://albertocabasvidani.notion.site/Bisboccia-74afed0b7ac446688dc69795f6f5e696"
+  },
+  {
+    "object": "page",
+    "id": "dce7cac1-501c-4b64-bb9d-ef5acf9566f4",
+    "created_time": "2024-05-13T10:07:00.000Z",
+    "last_edited_time": "2024-05-13T10:08:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "136fcd68-7331-4cb3-8bf3-ac903d4e5d31"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "136fcd68-7331-4cb3-8bf3-ac903d4e5d31"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "5fe69fd4-3f17-40b0-b2e9-4b9b61a863a4"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Data": {
+        "id": "%3BV%3BF",
+        "type": "date",
+        "date": {
+          "start": "2024-08-17",
+          "end": null,
+          "time_zone": null
+        }
+      },
+      "Aco": {
+        "id": "WU%3F%3A",
+        "type": "checkbox",
+        "checkbox": false
+      },
+      "Luogo": {
+        "id": "~%7Dax",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Farra",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Farra",
+            "href": null
+          }
+        ]
+      },
+      "Locale": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "4pr",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "4pr",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/4pr-dce7cac1501c4b64bb9def5acf9566f4",
+    "public_url": "https://albertocabasvidani.notion.site/4pr-dce7cac1501c4b64bb9def5acf9566f4"
+  },
+  {
+    "object": "page",
+    "id": "b0d4b0c2-bdf0-4ddb-85bf-6c0381617abd",
+    "created_time": "2024-05-13T09:12:00.000Z",
+    "last_edited_time": "2024-06-18T10:59:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "136fcd68-7331-4cb3-8bf3-ac903d4e5d31"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "136fcd68-7331-4cb3-8bf3-ac903d4e5d31"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "5fe69fd4-3f17-40b0-b2e9-4b9b61a863a4"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Data": {
+        "id": "%3BV%3BF",
+        "type": "date",
+        "date": {
+          "start": "2024-08-03",
+          "end": null,
+          "time_zone": null
+        }
+      },
+      "Aco": {
+        "id": "WU%3F%3A",
+        "type": "checkbox",
+        "checkbox": true
+      },
+      "Luogo": {
+        "id": "~%7Dax",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Budoia",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Budoia",
+            "href": null
+          }
+        ]
+      },
+      "Locale": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Al Ranch",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Al Ranch",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Al-Ranch-b0d4b0c2bdf04ddb85bf6c0381617abd",
+    "public_url": "https://albertocabasvidani.notion.site/Al-Ranch-b0d4b0c2bdf04ddb85bf6c0381617abd"
+  },
+  {
+    "object": "page",
+    "id": "1c166c85-8683-4266-9fe8-1fb8d11e760d",
+    "created_time": "2024-04-10T14:29:00.000Z",
+    "last_edited_time": "2024-04-10T14:29:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "136fcd68-7331-4cb3-8bf3-ac903d4e5d31"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "136fcd68-7331-4cb3-8bf3-ac903d4e5d31"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "5fe69fd4-3f17-40b0-b2e9-4b9b61a863a4"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Data": {
+        "id": "%3BV%3BF",
+        "type": "date",
+        "date": {
+          "start": "2024-08-23T21:30:00.000+02:00",
+          "end": null,
+          "time_zone": null
+        }
+      },
+      "Aco": {
+        "id": "WU%3F%3A",
+        "type": "checkbox",
+        "checkbox": false
+      },
+      "Luogo": {
+        "id": "~%7Dax",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Jesolo",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Jesolo",
+            "href": null
+          }
+        ]
+      },
+      "Locale": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Live Drink",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Live Drink",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Live-Drink-1c166c85868342669fe81fb8d11e760d",
+    "public_url": "https://albertocabasvidani.notion.site/Live-Drink-1c166c85868342669fe81fb8d11e760d"
+  },
+  {
+    "object": "page",
+    "id": "d42ec9f1-2e63-44aa-a6ca-b6d6c58eade0",
+    "created_time": "2024-04-10T14:28:00.000Z",
+    "last_edited_time": "2024-04-11T10:33:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "136fcd68-7331-4cb3-8bf3-ac903d4e5d31"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "136fcd68-7331-4cb3-8bf3-ac903d4e5d31"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "5fe69fd4-3f17-40b0-b2e9-4b9b61a863a4"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Data": {
+        "id": "%3BV%3BF",
+        "type": "date",
+        "date": {
+          "start": "2024-07-26T21:30:00.000+02:00",
+          "end": null,
+          "time_zone": null
+        }
+      },
+      "Aco": {
+        "id": "WU%3F%3A",
+        "type": "checkbox",
+        "checkbox": false
+      },
+      "Luogo": {
+        "id": "~%7Dax",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Pavia di Udine",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Pavia di Udine",
+            "href": null
+          }
+        ]
+      },
+      "Locale": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "All’Invidia",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "All’Invidia",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/All-Invidia-d42ec9f12e6344aaa6cab6d6c58eade0",
+    "public_url": "https://albertocabasvidani.notion.site/All-Invidia-d42ec9f12e6344aaa6cab6d6c58eade0"
+  },
+  {
+    "object": "page",
+    "id": "108fef05-0cd8-4379-89ef-250b545d2cc1",
+    "created_time": "2024-03-27T10:31:00.000Z",
+    "last_edited_time": "2024-04-11T10:32:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "136fcd68-7331-4cb3-8bf3-ac903d4e5d31"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "136fcd68-7331-4cb3-8bf3-ac903d4e5d31"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "5fe69fd4-3f17-40b0-b2e9-4b9b61a863a4"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Data": {
+        "id": "%3BV%3BF",
+        "type": "date",
+        "date": {
+          "start": "2024-05-31T21:00:00.000+02:00",
+          "end": null,
+          "time_zone": null
+        }
+      },
+      "Aco": {
+        "id": "WU%3F%3A",
+        "type": "checkbox",
+        "checkbox": false
+      },
+      "Luogo": {
+        "id": "~%7Dax",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Trieste",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Trieste",
+            "href": null
+          }
+        ]
+      },
+      "Locale": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Ippodromo Montebello",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Ippodromo Montebello",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Ippodromo-Montebello-108fef050cd8437989ef250b545d2cc1",
+    "public_url": "https://albertocabasvidani.notion.site/Ippodromo-Montebello-108fef050cd8437989ef250b545d2cc1"
+  },
+  {
+    "object": "page",
+    "id": "b493e71c-a13f-4f5c-83d6-37272b8144d2",
+    "created_time": "2024-02-18T16:05:00.000Z",
+    "last_edited_time": "2024-04-11T10:32:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "136fcd68-7331-4cb3-8bf3-ac903d4e5d31"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "136fcd68-7331-4cb3-8bf3-ac903d4e5d31"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "5fe69fd4-3f17-40b0-b2e9-4b9b61a863a4"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Data": {
+        "id": "%3BV%3BF",
+        "type": "date",
+        "date": {
+          "start": "2024-07-12T21:00:00.000+02:00",
+          "end": null,
+          "time_zone": null
+        }
+      },
+      "Aco": {
+        "id": "WU%3F%3A",
+        "type": "checkbox",
+        "checkbox": false
+      },
+      "Luogo": {
+        "id": "~%7Dax",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Varmo",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Varmo",
+            "href": null
+          }
+        ]
+      },
+      "Locale": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "La Ferrata",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "La Ferrata",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/La-Ferrata-b493e71ca13f4f5c83d637272b8144d2",
+    "public_url": "https://albertocabasvidani.notion.site/La-Ferrata-b493e71ca13f4f5c83d637272b8144d2"
+  },
+  {
+    "object": "page",
+    "id": "3d1d8494-aac3-4feb-a2d1-e1bd6af46976",
+    "created_time": "2024-02-18T16:04:00.000Z",
+    "last_edited_time": "2024-04-11T10:32:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "136fcd68-7331-4cb3-8bf3-ac903d4e5d31"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "136fcd68-7331-4cb3-8bf3-ac903d4e5d31"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "5fe69fd4-3f17-40b0-b2e9-4b9b61a863a4"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Data": {
+        "id": "%3BV%3BF",
+        "type": "date",
+        "date": {
+          "start": "2024-06-29T21:00:00.000+02:00",
+          "end": null,
+          "time_zone": null
+        }
+      },
+      "Aco": {
+        "id": "WU%3F%3A",
+        "type": "checkbox",
+        "checkbox": false
+      },
+      "Luogo": {
+        "id": "~%7Dax",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Spessa di Cividale",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Spessa di Cividale",
+            "href": null
+          }
+        ]
+      },
+      "Locale": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Al Posto Giusto ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Al Posto Giusto ",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Al-Posto-Giusto-3d1d8494aac34feba2d1e1bd6af46976",
+    "public_url": "https://albertocabasvidani.notion.site/Al-Posto-Giusto-3d1d8494aac34feba2d1e1bd6af46976"
+  },
+  {
+    "object": "page",
+    "id": "9fa1bda6-89c6-4392-a59f-1ad6293484cf",
+    "created_time": "2024-02-18T16:01:00.000Z",
+    "last_edited_time": "2024-02-18T16:07:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "136fcd68-7331-4cb3-8bf3-ac903d4e5d31"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "136fcd68-7331-4cb3-8bf3-ac903d4e5d31"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "5fe69fd4-3f17-40b0-b2e9-4b9b61a863a4"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Data": {
+        "id": "%3BV%3BF",
+        "type": "date",
+        "date": {
+          "start": "2024-05-17T20:30:00.000+02:00",
+          "end": null,
+          "time_zone": null
+        }
+      },
+      "Aco": {
+        "id": "WU%3F%3A",
+        "type": "checkbox",
+        "checkbox": false
+      },
+      "Luogo": {
+        "id": "~%7Dax",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Tarcento",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Tarcento",
+            "href": null
+          }
+        ]
+      },
+      "Locale": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Plan di Paluz",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Plan di Paluz",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Plan-di-Paluz-9fa1bda689c64392a59f1ad6293484cf",
+    "public_url": "https://albertocabasvidani.notion.site/Plan-di-Paluz-9fa1bda689c64392a59f1ad6293484cf"
+  },
+  {
+    "object": "page",
+    "id": "bc25381b-2361-4408-9648-639339516217",
+    "created_time": "2024-02-18T16:01:00.000Z",
+    "last_edited_time": "2024-04-11T10:31:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "136fcd68-7331-4cb3-8bf3-ac903d4e5d31"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "136fcd68-7331-4cb3-8bf3-ac903d4e5d31"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "5fe69fd4-3f17-40b0-b2e9-4b9b61a863a4"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Data": {
+        "id": "%3BV%3BF",
+        "type": "date",
+        "date": {
+          "start": "2024-04-12T20:30:00.000+02:00",
+          "end": null,
+          "time_zone": null
+        }
+      },
+      "Aco": {
+        "id": "WU%3F%3A",
+        "type": "checkbox",
+        "checkbox": false
+      },
+      "Luogo": {
+        "id": "~%7Dax",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Gorizia",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Gorizia",
+            "href": null
+          }
+        ]
+      },
+      "Locale": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Kulturni Dom",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Kulturni Dom",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Kulturni-Dom-bc25381b236144089648639339516217",
+    "public_url": "https://albertocabasvidani.notion.site/Kulturni-Dom-bc25381b236144089648639339516217"
+  },
+  {
+    "object": "page",
+    "id": "f1bb2323-9baf-4750-93dc-9314b7a680cf",
+    "created_time": "2024-02-18T16:01:00.000Z",
+    "last_edited_time": "2024-02-18T16:05:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "136fcd68-7331-4cb3-8bf3-ac903d4e5d31"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "136fcd68-7331-4cb3-8bf3-ac903d4e5d31"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "5fe69fd4-3f17-40b0-b2e9-4b9b61a863a4"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Data": {
+        "id": "%3BV%3BF",
+        "type": "date",
+        "date": {
+          "start": "2024-02-25T18:00:00.000+01:00",
+          "end": null,
+          "time_zone": null
+        }
+      },
+      "Aco": {
+        "id": "WU%3F%3A",
+        "type": "checkbox",
+        "checkbox": false
+      },
+      "Luogo": {
+        "id": "~%7Dax",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Camporosso",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Camporosso",
+            "href": null
+          }
+        ]
+      },
+      "Locale": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "La Bettola",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "La Bettola",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/La-Bettola-f1bb23239baf475093dc9314b7a680cf",
+    "public_url": "https://albertocabasvidani.notion.site/La-Bettola-f1bb23239baf475093dc9314b7a680cf"
+  }
+]
