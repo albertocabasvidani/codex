@@ -9,14 +9,6 @@ try {
   // dotenv is optional; ignore if not installed
 }
 
-// Notion credentials. Can be overridden by environment variables
-const notionApiKey =
-  process.env.NOTION_API_KEY ||
-  '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';
-const databaseId =
-  process.env.NOTION_DATABASE_ID ||
-  '5fe69fd43f1740b0b2e94b9b61a863a4';
-
 const port = 3000;
 
 const mimeTypes = {
@@ -26,38 +18,6 @@ const mimeTypes = {
   '.json': 'application/json'
 };
 
-async function handleEvents(res) {
-  const url = `https://api.notion.com/v1/databases/${databaseId}/query`;
-  const headers = {
-    'Authorization': `Bearer ${notionApiKey}`,
-    'Notion-Version': '2022-06-28',
-    'Content-Type': 'application/json'
-  };
-  const today = new Date().toISOString().split('T')[0];
-  const query = {
-    filter: { property: 'Data', date: { on_or_after: today } },
-    sorts: [{ property: 'Data', direction: 'ascending' }]
-  };
-  try {
-    const notionRes = await fetch(url, {
-      method: 'POST',
-      headers,
-      body: JSON.stringify(query)
-    });
-    const output = await notionRes.json();
-    if (!notionRes.ok) {
-      res.writeHead(notionRes.status, { 'Content-Type': 'application/json' });
-      res.end(JSON.stringify(output));
-      return;
-    }
-    res.writeHead(200, { 'Content-Type': 'application/json' });
-    res.end(JSON.stringify({ upcoming: output.results }));
-  } catch (err) {
-    console.error(err);
-    res.writeHead(500, { 'Content-Type': 'application/json' });
-    res.end(JSON.stringify({ error: err.message }));
-  }
-}
 
 const WEB_ROOT = path.resolve(__dirname);
 const allowedFiles = {
@@ -102,11 +62,7 @@ function serveStatic(req, res) {
 }
 
 const server = http.createServer((req, res) => {
-  if (req.url === '/events') {
-    handleEvents(res);
-  } else {
-    serveStatic(req, res);
-  }
+  serveStatic(req, res);
 });
 
 server.listen(port, () => {
