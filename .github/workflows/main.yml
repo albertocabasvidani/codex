@@ -1,0 +1,25 @@
+name: Export Notion DB
+
+on:
+  workflow_dispatch:      # pulsante “Run workflow” nella UI
+  # repository_dispatch:  # facoltativo: chiamata via API (vedi sotto)
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+      - run: pip install notion-client
+      - run: python scripts/export_notion.py
+        env:
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+          DATABASE_ID:  ${{ secrets.DATABASE_ID }}
+      - run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/notion.json
+          git diff --staged --quiet || git commit -m "chore: update Notion export"
+          git push
