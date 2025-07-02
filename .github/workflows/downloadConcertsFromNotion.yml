@@ -1,9 +1,8 @@
 name: Export Notion DB
-
 on:
-  workflow_dispatch:      # pulsante “Run workflow” nella UI
-  # repository_dispatch:  # facoltativo: chiamata via API (vedi sotto)
-
+  schedule:
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
 jobs:
   export:
     runs-on: ubuntu-latest
