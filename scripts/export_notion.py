@@ -41,12 +41,12 @@ def main():
         json.dumps(data, ensure_ascii=False, indent=2),
         encoding="utf-8"
     )
-# Variante 2: calcola la relativa rispetto alla cwd solo se possibile
-try:
-    display_path = out_file.resolve().relative_to(pathlib.Path.cwd())
-except ValueError:
-    display_path = out_file  # fallback
-print(f"✔  Esportazione completata: {display_path}")
+    # Variante 2: calcola la relativa rispetto alla cwd solo se possibile
+    try:
+        display_path = out_file.resolve().relative_to(pathlib.Path.cwd())
+    except ValueError:
+        display_path = out_file  # fallback
+    print(f"✔  Esportazione completata: {display_path}")
 
 
 if __name__ == "__main__":
