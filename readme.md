@@ -12,10 +12,8 @@ Questo repository contiene un esempio di sito web per una tribute band.
 ## Configurazione
 
 1. Clona il repository in locale.
-2. Avvia il server con `node server.js` e visita `http://localhost:3000` in un browser per visualizzare il sito.
+2. Avvia un semplice server HTTP dalla radice del progetto (ad esempio `python -m http.server`) e visita `http://localhost:8000` in un browser per visualizzare il sito.
    Gli eventi vengono letti dal file `events.json` presente nella radice del progetto.
-
-Assicurati di usare **Node.js 18 o superiore**, necessario per l'API `fetch` integrata. Se riscontri errori di `fetch`, installa il pacchetto `node-fetch` oppure aggiorna la tua versione di Node.
 
 
 
