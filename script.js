@@ -42,7 +42,8 @@ function populateLists(upcoming = [], past = []) {
 }
 
 // Mappa con Leaflet
-const map = L.map('mapid').setView([0, 0], 2);
+// Center the map on Friuli Venezia Giulia, Italy
+const map = L.map('mapid').setView([46.1, 13.2], 8);
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
   attribution: '© OpenStreetMap contributors'
 }).addTo(map);
