@@ -38,6 +38,11 @@ async function loadUpcomingFromNotion() {
       const dateStr = ev.date.toLocaleDateString();
       item.textContent = `${dateStr} - ${ev.venue}, ${ev.location}`;
 
+
+      const dateStr = ev.date.toLocaleDateString();
+      item.textContent = `${dateStr} - ${ev.venue}, ${ev.location}`;
+
+
       upcomingList.appendChild(item);
     });
   } catch (err) {
