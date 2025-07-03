@@ -31,7 +31,7 @@ def main():
         if not date_str:
             continue
         try:
-            date_value = datetime.date.fromisoformat(date_str)
+            date_value = datetime.datetime.fromisoformat(date_str).date()
         except ValueError:
             continue
         if date_value < today:
