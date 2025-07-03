@@ -58,4 +58,3 @@ function addMarker(location) {
     });
 }
 
-fetchEvents();
