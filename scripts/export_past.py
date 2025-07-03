@@ -35,6 +35,7 @@ def main():
                 datetime.datetime.fromisoformat(date_str.replace("Z", "+00:00"))
                 .date()
             )
+
         except ValueError:
             try:
                 date_value = datetime.date.fromisoformat(date_str)
