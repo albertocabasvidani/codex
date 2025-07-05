@@ -87,6 +87,92 @@
   },
   {
     "object": "page",
+    "id": "1f0cb515-bb6a-80d9-8b29-fcaeeee0ec60",
+    "created_time": "2025-05-11T19:00:00.000Z",
+    "last_edited_time": "2025-05-11T19:03:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "136fcd68-7331-4cb3-8bf3-ac903d4e5d31"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "136fcd68-7331-4cb3-8bf3-ac903d4e5d31"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "5fe69fd4-3f17-40b0-b2e9-4b9b61a863a4"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Data": {
+        "id": "%3BV%3BF",
+        "type": "date",
+        "date": {
+          "start": "2025-07-04T18:00:00.000+02:00",
+          "end": null,
+          "time_zone": null
+        }
+      },
+      "Aco": {
+        "id": "WU%3F%3A",
+        "type": "checkbox",
+        "checkbox": false
+      },
+      "Luogo": {
+        "id": "~%7Dax",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Premariacco",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Premariacco",
+            "href": null
+          }
+        ]
+      },
+      "Locale": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "QT",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "QT",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/QT-1f0cb515bb6a80d98b29fcaeeee0ec60",
+    "public_url": "https://albertocabasvidani.notion.site/QT-1f0cb515bb6a80d98b29fcaeeee0ec60"
+  },
+  {
+    "object": "page",
     "id": "1cdcb515-bb6a-804b-bbff-cd94d782e9ed",
     "created_time": "2025-04-06T13:03:00.000Z",
     "last_edited_time": "2025-05-11T19:01:00.000Z",
