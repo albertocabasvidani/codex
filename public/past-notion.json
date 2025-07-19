@@ -1,6 +1,92 @@
 [
   {
     "object": "page",
+    "id": "207cb515-bb6a-8025-9674-cfdafaade349",
+    "created_time": "2025-06-03T13:58:00.000Z",
+    "last_edited_time": "2025-06-03T13:58:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "136fcd68-7331-4cb3-8bf3-ac903d4e5d31"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "136fcd68-7331-4cb3-8bf3-ac903d4e5d31"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "5fe69fd4-3f17-40b0-b2e9-4b9b61a863a4"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Data": {
+        "id": "%3BV%3BF",
+        "type": "date",
+        "date": {
+          "start": "2025-07-18",
+          "end": null,
+          "time_zone": null
+        }
+      },
+      "Aco": {
+        "id": "WU%3F%3A",
+        "type": "checkbox",
+        "checkbox": true
+      },
+      "Luogo": {
+        "id": "~%7Dax",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Caorle",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Caorle",
+            "href": null
+          }
+        ]
+      },
+      "Locale": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Verde Mare Club",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Verde Mare Club",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Verde-Mare-Club-207cb515bb6a80259674cfdafaade349",
+    "public_url": "https://albertocabasvidani.notion.site/Verde-Mare-Club-207cb515bb6a80259674cfdafaade349"
+  },
+  {
+    "object": "page",
     "id": "207cb515-bb6a-80d4-89b4-e50dc5e14310",
     "created_time": "2025-06-03T13:57:00.000Z",
     "last_edited_time": "2025-06-03T13:58:00.000Z",
