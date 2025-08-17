@@ -1,6 +1,92 @@
 [
   {
     "object": "page",
+    "id": "252cb515-bb6a-80f8-95e8-ee1353202cd6",
+    "created_time": "2025-08-17T15:50:00.000Z",
+    "last_edited_time": "2025-08-17T15:51:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "136fcd68-7331-4cb3-8bf3-ac903d4e5d31"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "136fcd68-7331-4cb3-8bf3-ac903d4e5d31"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "5fe69fd4-3f17-40b0-b2e9-4b9b61a863a4"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Data": {
+        "id": "%3BV%3BF",
+        "type": "date",
+        "date": {
+          "start": "2025-11-15",
+          "end": null,
+          "time_zone": null
+        }
+      },
+      "Aco": {
+        "id": "WU%3F%3A",
+        "type": "checkbox",
+        "checkbox": false
+      },
+      "Luogo": {
+        "id": "~%7Dax",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Udine",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Udine",
+            "href": null
+          }
+        ]
+      },
+      "Locale": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "La Tana",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "La Tana",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/La-Tana-252cb515bb6a80f895e8ee1353202cd6",
+    "public_url": "https://albertocabasvidani.notion.site/La-Tana-252cb515bb6a80f895e8ee1353202cd6"
+  },
+  {
+    "object": "page",
     "id": "217cb515-bb6a-81d0-ae19-c05a5da7cc66",
     "created_time": "2025-06-19T14:27:00.000Z",
     "last_edited_time": "2025-06-19T14:45:00.000Z",
@@ -261,7 +347,7 @@
     "object": "page",
     "id": "1f0cb515-bb6a-8086-9ff1-edafb0de04e7",
     "created_time": "2025-05-11T19:05:00.000Z",
-    "last_edited_time": "2025-05-11T19:06:00.000Z",
+    "last_edited_time": "2025-08-17T15:24:00.000Z",
     "created_by": {
       "object": "user",
       "id": "136fcd68-7331-4cb3-8bf3-ac903d4e5d31"
@@ -300,7 +386,7 @@
           {
             "type": "text",
             "text": {
-              "content": "Gradisca",
+              "content": "Gradisca d’Isonzo",
               "link": null
             },
             "annotations": {
@@ -311,7 +397,7 @@
               "code": false,
               "color": "default"
             },
-            "plain_text": "Gradisca",
+            "plain_text": "Gradisca d’Isonzo",
             "href": null
           }
         ]
@@ -323,7 +409,7 @@
           {
             "type": "text",
             "text": {
-              "content": "Novecento",
+              "content": "Pizzeria Novecento",
               "link": null
             },
             "annotations": {
@@ -334,20 +420,20 @@
               "code": false,
               "color": "default"
             },
-            "plain_text": "Novecento",
+            "plain_text": "Pizzeria Novecento",
             "href": null
           }
         ]
       }
     },
-    "url": "https://www.notion.so/Novecento-1f0cb515bb6a80869ff1edafb0de04e7",
-    "public_url": "https://albertocabasvidani.notion.site/Novecento-1f0cb515bb6a80869ff1edafb0de04e7"
+    "url": "https://www.notion.so/Pizzeria-Novecento-1f0cb515bb6a80869ff1edafb0de04e7",
+    "public_url": "https://albertocabasvidani.notion.site/Pizzeria-Novecento-1f0cb515bb6a80869ff1edafb0de04e7"
   },
   {
     "object": "page",
     "id": "1f0cb515-bb6a-806d-a4ef-c10f17db9def",
     "created_time": "2025-05-11T19:05:00.000Z",
-    "last_edited_time": "2025-05-11T19:06:00.000Z",
+    "last_edited_time": "2025-08-17T15:24:00.000Z",
     "created_by": {
       "object": "user",
       "id": "136fcd68-7331-4cb3-8bf3-ac903d4e5d31"
@@ -409,7 +495,7 @@
           {
             "type": "text",
             "text": {
-              "content": "All’Invidia",
+              "content": "Ristorante All’Invidia",
               "link": null
             },
             "annotations": {
@@ -420,20 +506,20 @@
               "code": false,
               "color": "default"
             },
-            "plain_text": "All’Invidia",
+            "plain_text": "Ristorante All’Invidia",
             "href": null
           }
         ]
       }
     },
-    "url": "https://www.notion.so/All-Invidia-1f0cb515bb6a806da4efc10f17db9def",
-    "public_url": "https://albertocabasvidani.notion.site/All-Invidia-1f0cb515bb6a806da4efc10f17db9def"
+    "url": "https://www.notion.so/Ristorante-All-Invidia-1f0cb515bb6a806da4efc10f17db9def",
+    "public_url": "https://albertocabasvidani.notion.site/Ristorante-All-Invidia-1f0cb515bb6a806da4efc10f17db9def"
   },
   {
     "object": "page",
     "id": "1f0cb515-bb6a-80e1-8bc0-e72f3f7f591b",
     "created_time": "2025-05-11T19:04:00.000Z",
-    "last_edited_time": "2025-05-11T19:06:00.000Z",
+    "last_edited_time": "2025-08-17T15:50:00.000Z",
     "created_by": {
       "object": "user",
       "id": "136fcd68-7331-4cb3-8bf3-ac903d4e5d31"
@@ -455,7 +541,7 @@
         "id": "%3BV%3BF",
         "type": "date",
         "date": {
-          "start": "2025-08-29T21:00:00.000+02:00",
+          "start": "2025-08-22T21:00:00.000+02:00",
           "end": null,
           "time_zone": null
         }
@@ -495,7 +581,7 @@
           {
             "type": "text",
             "text": {
-              "content": "Eccolo ",
+              "content": "Eccolo River Beer Truck",
               "link": null
             },
             "annotations": {
@@ -506,14 +592,14 @@
               "code": false,
               "color": "default"
             },
-            "plain_text": "Eccolo ",
+            "plain_text": "Eccolo River Beer Truck",
             "href": null
           }
         ]
       }
     },
-    "url": "https://www.notion.so/Eccolo-1f0cb515bb6a80e18bc0e72f3f7f591b",
-    "public_url": "https://albertocabasvidani.notion.site/Eccolo-1f0cb515bb6a80e18bc0e72f3f7f591b"
+    "url": "https://www.notion.so/Eccolo-River-Beer-Truck-1f0cb515bb6a80e18bc0e72f3f7f591b",
+    "public_url": "https://albertocabasvidani.notion.site/Eccolo-River-Beer-Truck-1f0cb515bb6a80e18bc0e72f3f7f591b"
   },
   {
     "object": "page",
@@ -605,7 +691,7 @@
     "object": "page",
     "id": "1f0cb515-bb6a-80d9-8b29-fcaeeee0ec60",
     "created_time": "2025-05-11T19:00:00.000Z",
-    "last_edited_time": "2025-07-08T20:19:00.000Z",
+    "last_edited_time": "2025-08-17T15:51:00.000Z",
     "created_by": {
       "object": "user",
       "id": "136fcd68-7331-4cb3-8bf3-ac903d4e5d31"
@@ -627,7 +713,7 @@
         "id": "%3BV%3BF",
         "type": "date",
         "date": {
-          "start": "2025-07-26T18:00:00.000+02:00",
+          "start": "2025-08-29T18:00:00.000+02:00",
           "end": null,
           "time_zone": null
         }
@@ -667,7 +753,7 @@
           {
             "type": "text",
             "text": {
-              "content": "QT",
+              "content": "QT Quarantasei Tredici",
               "link": null
             },
             "annotations": {
@@ -678,14 +764,14 @@
               "code": false,
               "color": "default"
             },
-            "plain_text": "QT",
+            "plain_text": "QT Quarantasei Tredici",
             "href": null
           }
         ]
       }
     },
-    "url": "https://www.notion.so/QT-1f0cb515bb6a80d98b29fcaeeee0ec60",
-    "public_url": "https://albertocabasvidani.notion.site/QT-1f0cb515bb6a80d98b29fcaeeee0ec60"
+    "url": "https://www.notion.so/QT-Quarantasei-Tredici-1f0cb515bb6a80d98b29fcaeeee0ec60",
+    "public_url": "https://albertocabasvidani.notion.site/QT-Quarantasei-Tredici-1f0cb515bb6a80d98b29fcaeeee0ec60"
   },
   {
     "object": "page",
