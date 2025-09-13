@@ -262,6 +262,93 @@
   },
   {
     "object": "page",
+    "id": "1f0cb515-bb6a-8086-9ff1-edafb0de04e7",
+    "created_time": "2025-05-11T19:05:00.000Z",
+    "last_edited_time": "2025-08-17T15:24:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "136fcd68-7331-4cb3-8bf3-ac903d4e5d31"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "136fcd68-7331-4cb3-8bf3-ac903d4e5d31"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "5fe69fd4-3f17-40b0-b2e9-4b9b61a863a4"
+    },
+    "archived": false,
+    "in_trash": false,
+    "is_locked": false,
+    "properties": {
+      "Data": {
+        "id": "%3BV%3BF",
+        "type": "date",
+        "date": {
+          "start": "2025-09-12T21:00:00.000+02:00",
+          "end": null,
+          "time_zone": null
+        }
+      },
+      "Aco": {
+        "id": "WU%3F%3A",
+        "type": "checkbox",
+        "checkbox": false
+      },
+      "Luogo": {
+        "id": "~%7Dax",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Gradisca d’Isonzo",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Gradisca d’Isonzo",
+            "href": null
+          }
+        ]
+      },
+      "Locale": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Pizzeria Novecento",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Pizzeria Novecento",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Pizzeria-Novecento-1f0cb515bb6a80869ff1edafb0de04e7",
+    "public_url": "https://albertocabasvidani.notion.site/Pizzeria-Novecento-1f0cb515bb6a80869ff1edafb0de04e7"
+  },
+  {
+    "object": "page",
     "id": "1f0cb515-bb6a-80e1-8bc0-e72f3f7f591b",
     "created_time": "2025-05-11T19:04:00.000Z",
     "last_edited_time": "2025-08-17T15:50:00.000Z",
